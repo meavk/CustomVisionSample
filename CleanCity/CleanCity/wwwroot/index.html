@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Garbage detection</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data" action="/api/vision/UploadFiles">
+        <div class="form-group">
+            <div class="col-md-10">
+                <p>Upload your image here:</p>
+                <input type="file" name="file" />
+                Latitude   : <input type="text" name="latitude" />
+                Longtitude : <input type="text" name="longitude" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Upload" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
